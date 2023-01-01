@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(129, 39, 231);
+}
+
+h1 {
+  color: bisque;
+}
+input {
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 10px;
+}
+textarea {
+  border-radius: 9px;
+}

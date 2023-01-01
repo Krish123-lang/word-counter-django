@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'text_app/style.css' %}">
+</head>
+
+<body>
+    <h1> Word Counter </h1>
+    <form action="counter" method="post">
+        {% csrf_token %}
+        <textarea name="text" id="30" cols="30" rows="10"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
